@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white"/>
+    <corners android:radius="50dp" android:bottomLeftRadius="@dimen/cardview_default_radius" android:bottomRightRadius="@dimen/cardview_default_radius"/>
+    <gradient
+        android:startColor="#5FA5A5"
+        android:endColor="#ffffff"
+        android:angle="90"/>
+</shape>

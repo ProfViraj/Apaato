@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0C363B"
+    tools:context=".Login.Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view_reg"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:background="@drawable/logo"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/welcome_reg"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Create an Account"
+                android:textColor="#BDA364"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Select the user type"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/anim_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+
+
+    </RelativeLayout>
+</LinearLayout>

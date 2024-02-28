@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "288636828705",
+    "project_id": "apaato-d62f0",
+    "storage_bucket": "apaato-d62f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288636828705:android:be3d93f180c8c6cf0df760",
+        "android_client_info": {
+          "package_name": "com.example.societymanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQwmuyVd9UjbF9IEf_-16LXKAaWCl14zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
